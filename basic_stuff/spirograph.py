@@ -21,7 +21,7 @@ def rand_col():
 turt.speed("fastest")
 
 def draw(size):
-    for _ in range(360/size):
+    for _ in range(360/size): 
         turt.color(rand_col())
         turt.circle(100)
         turt.setheading(turt.heading() + size)
